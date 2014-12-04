@@ -1,0 +1,4 @@
+linkShortener
+=============
+
+TinyURL mockup
