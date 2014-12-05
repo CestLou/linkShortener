@@ -4,6 +4,7 @@ var db = require('./models/index.js');
 var Hashids = require("hashids"),
     hashids = new Hashids("youll never catch me alive");
 
+
 var app = express();
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
