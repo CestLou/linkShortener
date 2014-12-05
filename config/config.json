@@ -1,0 +1,18 @@
+{
+  "development": {
+    "database": "linkShortener",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "password": null,
+    "database": "linkShortener-test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "database": "linkShortener-production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
