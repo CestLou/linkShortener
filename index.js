@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var db = require('./models/index.js');
 var Hashids = require("hashids"),
-    hashids = new Hashids("this is my salt");
+    hashids = new Hashids("youll never catch me alive");
 
 var app = express();
 app.set('view engine', 'ejs');
@@ -36,4 +36,4 @@ app.get('/:shortenedHash', function(req, res) {
 
 
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
